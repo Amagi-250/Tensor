@@ -44,7 +44,7 @@ c = int(input('Введите коэффициент c: '))
 print (f'Ваше уравнение: ({a})x^2 + ({b})x + ({c}) = 0')
 D = b**2 - 4 * a * c
 t = math.sqrt(abs(D) / 2 / a)
-r1 = r2 = -b / 2 * a
+real1 = real2 = -b / 2 * a
 print(f'Дискриминант: {D}')
 if (D > 0):
     x1 = ((-(b) + math.sqrt(D))) / (2 * a)
@@ -56,8 +56,8 @@ elif (D == 0):
     print('-----------------------------------')
     print(f'Единственный корень равен: x = {x}')
 else:
-    com1 = com2 = int(t)
+    imag1 = imag2 = int(t)
     print('-------------')
-    print(f'Корни равны: \nx1 = {r1} + {com1}i\nx2 = {r2} - {com2}i')
+    print(f'Корни равны: \nx1 = {real1} + {imag1}i\nx2 = {real2} - {imag2}i')
 
 
