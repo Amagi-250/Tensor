@@ -1,4 +1,8 @@
 
+print('\n---------')
+print('Задание 3')
+print('---------')
+
 def xor_cipher(strg, key):
     encript_str = ""
     for letter in strg:
@@ -32,6 +36,6 @@ except RuntimeError:
 finally:
     inp.close()
     out.close()
-    print('Файл Output.txt был изменён')
+    print('Файл Output1.txt был изменён')
 
 
